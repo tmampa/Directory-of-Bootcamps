@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
 
 div {
@@ -18,6 +19,8 @@ div {
   --bgBlue: #519cd7;
   --bgGray: #99a5a5;
   --bgOrange: #e27f65;
+  --black: #000;
+  --lightBlack: #1f1f1f;
 }
 
 .text-links {
@@ -71,13 +74,12 @@ div {
   background-color: var(--bgBlue);
 }
 
-.more {
-  width: 100%;
+.bgBlack {
+  background-color: var(--black);
 }
 
-.more .img {
-  width: 250px;
-  height: 250px;
+.bgLightBlack {
+  background-color: var(--lightBlack);
 }
 
 nav {
@@ -95,7 +97,7 @@ nav {
 
 .hero-image {
   background: url(/assets/hero-img.jpg) center;
-  height: 70vh;
+  height: 80vh;
   max-width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -108,6 +110,30 @@ nav {
 form {
   margin: 0 16px;
   padding: 8px;
+}
+
+.rounded-circle {
+  height: 250px !important;
+  width: 250px !important;
+}
+
+.bg-footer-top {
+  border-top: 1px solid white;
+}
+
+.bg-footer-bottom {
+  border-bottom: 1px solid white;
+}
+
+.footer-flex,
+.container2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-flex-top {
+  display: flex;
+  justify-content: space-around;
 }
 
 @media screen and (min-width: 768px) {
@@ -145,6 +171,12 @@ form {
     align-items: center;
     justify-content: space-between;
   }
+
+  form {
+    width: 75%;
+    margin: 0 auto;
+    padding: 1rem 1rem 2rem 1rem;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -167,4 +199,13 @@ form {
   .more .flex-lg-row {
     flex-direction: row !important;
   }
+
+  .col {
+    text-align: left !important;
+  }
+
+  .footer-flex-top a {
+    padding: 0 1.5rem;
+  }
+
 }
