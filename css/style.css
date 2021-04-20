@@ -40,8 +40,12 @@ div {
   color: var(--white);
 }
 
+.fa-wifi {
+  transform: rotate(40deg);
+}
+
 .bg-color {
-  background-color: var(--bg-color);
+  background-color: var(--bg-color) !important;
 }
 
 nav {
@@ -55,6 +59,23 @@ nav {
 
 .nav-bar {
   padding: 0 1.5rem;
+}
+
+.hero-image {
+  background: url(/assets/hero-img.jpg) center;
+  height: 70vh;
+  max-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-search {
+  opacity: 0.9;
+}
+
+form {
+  margin: 0 16px;
+  padding: 8px;
 }
 
 @media screen and (min-width: 768px) {
