@@ -117,21 +117,21 @@ form {
   width: 250px !important;
 }
 
-.bg-footer-top {
+.top-line {
   border-top: 1px solid white;
 }
 
-.bg-footer-bottom {
+.btm-line {
   border-bottom: 1px solid white;
 }
 
-.footer-flex,
+.flex-footer,
 .container2 {
   display: flex;
   flex-direction: column;
 }
 
-.footer-flex-top {
+.f-flex {
   display: flex;
   justify-content: space-around;
 }
@@ -167,8 +167,8 @@ form {
   }
 
   .nav-container,
-  .footer-flex-top,
-  .footer-flex {
+  .f-flex,
+  .flex-footer {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -180,26 +180,26 @@ form {
     padding: 1rem 1rem 2rem 1rem;
   }
 
-  .show-footer {
+  .footer-v {
     display: block;
   }
 
-  .bg-footer-top,
-  .bg-footer-bottom {
+  .top-line,
+  .btm-line {
     border: none;
   }
 
-  .bg-footer-all {
+  .f-lines {
     border-top: 1px solid white;
     border-bottom: 1px solid white;
     position: relative;
   }
 
-  .footer-flex-top {
+  .f-flex {
     font-size: 0.8rem;
   }
 
-  .footer-flex-top a {
+  .f-flex a {
     padding: 0 0.9rem;
   }
 }
