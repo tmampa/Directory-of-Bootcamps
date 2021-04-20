@@ -75,7 +75,7 @@ div {
   width: 100%;
 }
 
-.img {
+.more .img {
   width: 250px;
   height: 250px;
 }
@@ -162,5 +162,9 @@ form {
 
   .fai {
     font-size: 50px;
+  }
+
+  .more .flex-lg-row {
+    flex-direction: row !important;
   }
 }
