@@ -166,7 +166,9 @@ form {
     color: var(--white);
   }
 
-  .nav-container {
+  .nav-container,
+  .footer-flex-top,
+  .footer-flex {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -176,6 +178,29 @@ form {
     width: 75%;
     margin: 0 auto;
     padding: 1rem 1rem 2rem 1rem;
+  }
+
+  .show-footer {
+    display: block;
+  }
+
+  .bg-footer-top,
+  .bg-footer-bottom {
+    border: none;
+  }
+
+  .bg-footer-all {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    position: relative;
+  }
+
+  .footer-flex-top {
+    font-size: 0.8rem;
+  }
+
+  .footer-flex-top a {
+    padding: 0 0.9rem;
   }
 }
 
@@ -203,9 +228,4 @@ form {
   .col {
     text-align: left !important;
   }
-
-  .footer-flex-top a {
-    padding: 0 1.5rem;
-  }
-
 }
