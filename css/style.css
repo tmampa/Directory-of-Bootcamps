@@ -193,6 +193,7 @@ button {
 }
 
 .apply {
+  background-color: #457db4 !important;
   width: 60px;
   margin-top: 10px;
 }
