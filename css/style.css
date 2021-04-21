@@ -150,6 +150,45 @@ form {
   background-color: #eee;
 }
 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 16px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+
+.card img {
+  width: 100%;
+  height: 350px;
+}
+
+
 @media screen and (min-width: 768px) {
   .link-list {
     margin: auto;
@@ -216,6 +255,23 @@ form {
   .f-flex a {
     padding: 0 0.9rem;
   }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+  height: 100%;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+}
 }
 
 @media screen and (min-width: 1024px) {
@@ -242,4 +298,18 @@ form {
   .col {
     text-align: left !important;
   }
+
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+  height: 100%;
+}
+
 }
