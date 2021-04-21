@@ -16,6 +16,8 @@ A responsive website built following the original project specifications from [M
 
 Project requirements included using semantic HTML tags, CSS selectors, HTML elements box model (margin, padding, width, height), Bootstrap, creating UIs adaptable to different screen sizes using mediaqueries and using industry-standard tools (flexbox) to place elements on the page.
 
+This is a search directory for Bootcamps all over the world.
+
 The project was created using the [design](https://www.behance.net/gallery/25563385/PatashuleKE) of Matthew Njuguna & Sam Achola (Behance).
 
 The project has 3 web pages - the main page, the search results page and the details page.
@@ -25,12 +27,6 @@ The project has 3 web pages - the main page, the search results page and the det
 - HTML5
 - CSS3 Media Queries
 - Bootstrap
-
-## Learning Resources
-
-- getbootstrap.com
-- w3schools.com
-- css-tricks.com
 
 ## Live Demo
 
@@ -50,7 +46,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Copy this link [Directory-of-Bootcamps](https://github.com/tmampa/Directory-of-Bootcamps)
 - Open your terminal or command line in the folder you want the project to be
-- Run the command git clone with the link you copied above `git clone https://github.com/ZeenatLawal/Directory-of-Bootcamps.git`
+- Run the command git clone with the link you copied above `git clone https://github.com/tmampa/Directory-of-Bootcamps.git`
 - Open the folder with your code editor and run the index.html file using a live server
 
 
