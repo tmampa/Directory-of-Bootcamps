@@ -26,6 +26,12 @@ The project has 3 web pages - the main page, the search results page and the det
 - CSS3 Media Queries
 - Bootstrap
 
+## Learning Resources
+
+- getbootstrap.com
+- w3schools.com
+- css-tricks.com
+
 ## Live Demo
 
 [Live Demo Link](https://bootworld20.netlify.app/)
