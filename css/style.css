@@ -190,10 +190,9 @@ button {
   height: 40px;
 }
 
-.apply {
+.details .btn-apply {
   background-color: #457db4;
-  width: 25%;
-  margin-top: 10px;
+  float: right;
 }
 
 iframe {
