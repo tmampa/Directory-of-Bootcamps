@@ -4,8 +4,6 @@
   padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
-
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -57,11 +55,15 @@ div {
 }
 
 .bg-color {
-  background-color: var(--bg-color) !important;
+  background-color: var(--bg-color);
+}
+
+form .bg-color {
+  background-color: var(--bg-color);
 }
 
 .text-orange {
-  color: var(--bg-color) !important;
+  color: var(--bg-color);
 }
 
 .bgOrange {
@@ -85,11 +87,11 @@ div {
 }
 
 .btn-search {
-  background-color: #457db4 !important;
+  background-color: #457db4;
 }
 
 .clear-results {
-  background-color: #e6ac5b !important;
+  background-color: #e6ac5b;
 }
 
 nav {
@@ -122,9 +124,9 @@ form {
   padding: 8px;
 }
 
-.rounded-circle {
-  height: 250px !important;
-  width: 250px !important;
+.more .rounded-circle {
+  height: 250px;
+  width: 250px;
 }
 
 .top-line {
@@ -192,9 +194,9 @@ button {
   height: 40px;
 }
 
-.apply {
-  width: 60px;
-  margin-top: 10px;
+.details .btn-apply {
+  background-color: #457db4;
+  float: right;
 }
 
 iframe {
@@ -207,6 +209,14 @@ iframe {
   background-color: #f5f5f5;
 }
 
+form .filter-btn {
+  background-color: #457db4;
+}
+
+form .filter-clear {
+  background-color: var(--bg-color);
+}
+
 @media screen and (min-width: 768px) {
   .link-list {
     margin: auto;
@@ -214,7 +224,7 @@ iframe {
   }
 
   .logo {
-    margin: auto !important;
+    margin: auto;
   }
 
   .logo-text {
@@ -255,6 +265,10 @@ iframe {
     display: block;
   }
 
+  form .bg-color {
+    background-color: #457db4;
+  }
+
   .top-line,
   .btm-line {
     border: none;
@@ -278,6 +292,14 @@ iframe {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
+  }
+
+  form .filter-btn {
+    background-color: #457db4;
+  }
+
+  form .filter-clear {
+    background-color: var(--bg-color);
   }
 
   .card {
@@ -305,16 +327,28 @@ iframe {
     margin-left: 10px;
   }
 
+  form .bg-color {
+    background-color: var(--bg-color);
+  }
+
   .fai {
     font-size: 50px;
   }
 
   .more .flex-lg-row {
-    flex-direction: row !important;
+    flex-direction: row;
   }
 
   .col {
-    text-align: left !important;
+    text-align: left;
+  }
+
+  form .filter-btn {
+    background-color: #457db4;
+  }
+
+  form .filter-clear {
+    background-color: var(--bg-color);
   }
 
   .cards {
