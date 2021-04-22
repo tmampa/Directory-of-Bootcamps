@@ -210,6 +210,14 @@ iframe {
   background-color: var(--bg-color);
 }
 
+form .filter-btn {
+  background-color: #457db4;
+}
+
+form .filter-clear {
+  background-color: var(--bg-color);
+}
+
 @media screen and (min-width: 768px) {
   .link-list {
     margin: auto;
@@ -287,6 +295,15 @@ iframe {
     grid-gap: 20px;
   }
 
+  form .filter-btn {
+    background-color: #457db4;
+  }
+
+  form .filter-clear {
+    background-color: var(--bg-color);
+  }
+
+
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 100%;
@@ -328,6 +345,13 @@ iframe {
     text-align: left;
   }
   
+  form .filter-btn {
+    background-color: #457db4;
+  }
+
+  form .filter-clear {
+    background-color: var(--bg-color);
+  }
 
   .cards {
     display: grid;

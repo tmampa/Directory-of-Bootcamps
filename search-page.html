@@ -56,50 +56,34 @@
           <h2 class="fs-3 text-black-50 text-center">Filter by Instituition, Programs, Length or Country:</h2>
           <form action="/action_page.php">
             <div class="row g-3">
-              <div class="col-sm-12 col-md-4 col-lg-3">
-                <label class="form-label">Institution</label>
+              <div class="col-sm-12 col-md-3 col-lg">
                 <input type="text"  class="form-control" placeholder="Institution" aria-label="Institution">
               </div>
-              <div class="col-sm-12 col-md-2 col-lg-3">
-                <label for="inputPrograms" class="form-label">Programs</label>
+              <div class="col-sm-12 col-md-3 col-lg">
                 <select id="inputPrograms" class="form-select">
-                  <option selected>Select</option>
-                  <option>Web Development</option>
+                  <option selected>Web Development</option>
                   <option>Software Development</option>
                   <option>Software Engineering</option>
                   <option>UX/UI Design</option>
                 </select>
               </div>
-              <div class="col-sm-12 col-md-2 col-lg-2">
-                <label for="inputLength" class="form-label">Length</label>
+              <div class="col-sm-12 col-md-3 col-lg">
                 <select id="inputLength" class="form-select">
-                  <option selected>Select</option>
-                  <option>Part-Time</option>
+                  <option selected>Part-Time</option>
                   <option>Full-Time</option>
                 </select>
               </div>
-              <div class="col-sm-12 col-md-2 col-lg-2">
-                <label for="inputCountry" class="form-label">Country</label>
-                <select id="inputCountry" class="form-select">
-                  <option selected>Select</option>
-                  <option>South Africa</option>
-                  <option>England</option>
-                  <option>France</option>
-                </select>
-              </div>
-              <div class="col-sm-12 col-md-2 col-lg-2">
-                <label for="inputCategory" class="form-label">Category</label>
+              <div class="col-sm-12 col-md-3 col-lg">
                 <select id="inputCategory" class="form-select">
-                  <option selected>Select</option>
-                  <option>In-Person</option>
+                  <option selected>In-Person</option>
                   <option>Online</option>
                 </select>
               </div>
-              <div class="col-sm-12 col-md-6 col-lg-6">
-                <button type="submit" class="btn btn-search text-light w-100">Search</button>
+              <div class="col-sm-12 col-md-3 col-lg-2">
+                <a href="search-results.html" class="filter-btn w-100 form-control text-light text-decoration-none text-center">Search</a>
               </div>
-              <div class="col-sm-12 text-center col-md-6 col-lg-6">
-                <a href="search-page.html" class="form-control text-light clear-results"><i class="fas fa-edit"></i>Clear Filter</a>
+              <div class="col-sm-12 text-center col-md-3 col-lg-3">
+                <a href="search-page.html" class="form-control filter-clear text-light text-decoration-none"><i class="fas fa-edit"></i>Clear Filter</a>
               </div>
             </div>
           </form> 
