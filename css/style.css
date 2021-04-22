@@ -54,6 +54,10 @@ div {
   font-size: 40px;
 }
 
+.bg-color {
+  background-color: var(--bg-color);
+}
+
 form .bg-color {
   background-color: var(--bg-color);
 }
@@ -205,10 +209,6 @@ iframe {
   background-color: #f5f5f5;
 }
 
-.bg-color {
-  background-color: var(--bg-color);
-}
-
 form .filter-btn {
   background-color: #457db4;
 }
@@ -302,7 +302,6 @@ form .filter-clear {
     background-color: var(--bg-color);
   }
 
-
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 100%;
@@ -343,7 +342,7 @@ form .filter-clear {
   .col {
     text-align: left;
   }
-  
+
   form .filter-btn {
     background-color: #457db4;
   }
