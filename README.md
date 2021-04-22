@@ -2,7 +2,7 @@
 
 # BootWorld - A Directory of Bootcamps
 
-> HTML & CSS Capstone Project (EasySearch - A online directory of restaurants)
+> HTML & CSS Capstone Project (BootWorld- A online directory of bootcamps
 A responsive website built following the original project specifications from [Microverse Capstone Project - Directory of Schools](https://www.notion.so/HTML-CSS-capstone-project-Directory-of-Schools-eea352bfaf3e4a83b2917df1f9a4e140)
 
 ### Main page
